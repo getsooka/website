@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sooka – Feel Better. Stay Happy.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: #fefefe;
+            color: #222;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+            line-height: 1.5;
+        }
+        header {
+            text-align: center;
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 1.2rem;
+            font-weight: normal;
+            color: #555;
+            margin-bottom: 2rem;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.75rem;
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input[type="email"] {
+            padding: 0.8rem;
+            font-size: 1rem;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 0.8rem 1.2rem;
+            font-size: 1rem;
+            background-color: #00bfa6;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+        button:hover {
+            background-color: #00a591;
+        }
+        .features {
+            margin-top: 3rem;
+            max-width: 600px;
+            text-align: center;
+        }
+        .features p {
+            margin: 0.5rem 0;
+        }
+        footer {
+            margin-top: 4rem;
+            font-size: 0.9rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Feel Better. Stay Happy.</h1>
+    <h2>Sooka is a new kind of app to help you feel happier — one simple step at a time.</h2>
+    <form name="early-access" method="POST" data-netlify="true">
+        <input type="email" name="email" placeholder="Enter your email" required />
+        <button type="submit">Get Early Access</button>
+    </form>
+</header>
+
+<div class="features">
+    <p>✨ Mood-boosting moments</p>
+    <p>🧠 Mindful nudges, not noise</p>
+    <p>📈 Learn what makes <em>you</em> happy</p>
+    <p>📱 Coming soon for iOS & Android</p>
+</div>
+
+<footer>
+    © 2025 Sooka. All rights reserved.
+</footer>
+</body>
+</html>
